@@ -1,4 +1,4 @@
-package challenges.challenge3.part1.challenge3p1
+package challenges.challenge3.part1.kotlincode
 
 class KotlinMountainBike(
         var seatHeight: Int,
