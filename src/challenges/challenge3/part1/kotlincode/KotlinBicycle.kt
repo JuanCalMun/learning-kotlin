@@ -1,6 +1,6 @@
 package challenges.challenge3.part1.kotlincode
 
-open class KotlinBicycle(var cadence: Int, var speed: Int, var gear: Int) {
+open class KotlinBicycle(var cadence: Int, var speed: Int, var gear: Int = 10) {
 
     fun applyBrake(decrement: Int) {
         speed -= decrement
