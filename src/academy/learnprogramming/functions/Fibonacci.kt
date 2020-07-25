@@ -31,6 +31,7 @@ fun fibonacci(num: Int): Long {
 fun improvedFibonacci(num: Int, a: Long = 0, b: Long = 1): Long {
     println("improved:" + a)
     return when (num) {
+        0 -> a
         1 -> b
         else -> improvedFibonacci(num - 1, b, a + b)
     }
